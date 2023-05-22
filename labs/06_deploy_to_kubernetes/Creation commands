@@ -9,3 +9,5 @@ tkn pipeline start cd-pipeline \
     --showlog
     
     ^-- performs the creation. Notice all the parameters we've put in
+    
+ kubectl get all -l app=hitcounter # check that the deployment is in a running state
